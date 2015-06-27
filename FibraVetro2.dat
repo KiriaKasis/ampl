@@ -1,0 +1,35 @@
+# INSIEMI DEL PROBLEMA
+#set SETT ordered;
+data;
+set SETT:= c1 c2 c3 c4 c5 c6;
+set sett:= c2 c3 c4 c5 c6;
+# PARAMETRI DEL PROBLEMA
+param: cp := 
+	c1 500
+	c2 800 
+	c3 600 
+	c4 600 
+	c5 700 
+	c6 600 ;
+param: cs := 
+	c1 50
+	c2 30 
+	c3 50 
+	c4 25 
+	c5 30 
+	c6 40 ;
+param: d := 
+	c1 100
+	c2 120 
+	c3 100 
+	c4 110 
+	c5 120 
+	c6 110;
+param: l := 
+	c1 140
+	c2 100 
+	c3 110 
+	c4 100 
+	c5 120 
+	c6 100 ;
+

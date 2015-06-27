@@ -1,0 +1,6 @@
+reset; 			# cancella eventuali dati già memorizzati
+model FibraVetro2.mod; 	# carica il modello
+data FibraVetro2.dat; 	# carica i dati
+option solver cbc; 	# setta cplex come solutore
+solve; 			# risolve il modello
+display x; 		# visualizza il valore ottimo delle variabili x
