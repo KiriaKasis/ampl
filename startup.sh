@@ -32,10 +32,10 @@ ufw allow OpenSSH
 
 echo 'y' |  ufw enable
 
-#apt-get -y update
-#apt-get -y upgrade
+apt-get -y update
+apt-get -y upgrade
 
-#apt install -y openvpn easy-rsa
+apt install -y openvpn easy-rsa
 
 rm -r -f $SAMHOME/openvpn-ca
 make-cadir $SAMHOME/openvpn-ca
