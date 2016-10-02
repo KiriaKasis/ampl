@@ -97,7 +97,7 @@ SERVERIP= $(ip route | grep dev | grep default | sed 's/ /\n/g' | grep '\.')
 
 ####
 #AGGIUNGERE ALA OPLZIONE -i!!!!!!!!!!!!!!!!!
-ed  -s /etc/ufw/before.rules << 'EOF'
+ed -i  -s /etc/ufw/before.rules << 'EOF'
 0a
 
 # START OPENVPN RULES
